@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-yrqu-dfodor
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/redhat-user-workloads/rhtap-migration-tenant/devfile-sample-1/devfile-sample-yrqu-dfodor@sha256:ce520700f05c9e7372430c1075a383907b973ac4139e85b4762fd914b4f76d5c
         name: my-nodejs
         ports:
         - containerPort: 3001
